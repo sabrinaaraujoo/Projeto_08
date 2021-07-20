@@ -1,0 +1,154 @@
+.nav-link{
+	margin: 0 15px;
+}
+
+/*Estilos Próprios*/
+
+.box-fix{
+	position: relative;
+	top: 56px;
+}
+
+section.bg-top{
+	width: 100%;
+	min-height: 530px;
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.fix-z-index{
+	position: relative;
+	z-index: 2;
+}
+
+.overlay{
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(127, 114, 140, 0.4);
+}
+
+.texto-bg{
+	color: white;
+	padding: 140px 0;
+	display: inline-block;
+}
+
+.padding-p{
+	padding-right: 30px;
+}
+
+section.chamada{
+	background: #7c4dff;
+	padding: 8px 0;
+	color: white;
+}
+
+section.chamada h2{
+	font-size: 34px;
+}
+
+section.sobre{
+	padding: 30px 0;
+}
+
+.custom-title{
+	position: relative;
+}
+
+.custom-title h2{
+	color: #888;
+	font-size: 25px;
+}
+
+.custom-title div{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #7c4dff;
+	width: 120px;
+	height: 4px;
+}
+
+section.diferenciais{
+	padding: 30px 0;
+	color: #646464;
+}
+
+section.diferenciais .col-md-4{
+	padding: 0 40px;
+}
+
+section.diferenciais h2{
+	padding: 10px;
+	border-bottom: 1px dotted black;
+}
+
+section.convite{
+	padding: 15px 0;
+	background: #7c4dff;
+}
+
+section.convite h2{
+	font-size: 28px;
+	margin: 15px 0;
+	color: white;
+}
+
+section.convite form{
+	margin: 15px 0;
+}
+
+section.convite input[type=email]{
+	width: calc(100% - 100px);
+	height: 40px;
+}
+
+section.convite button{
+	width: 100px;
+	height: 40px;
+	vertical-align: top;
+}
+
+section.contato{ 
+	padding: 30px 0;
+	background: rgb(255, 255, 255);
+}
+
+footer{
+	padding: 14px 0;
+	background: #333;
+	color: white;
+}
+
+.group-btns a{
+	margin: 0 10px;
+}
+
+footer ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	list-style-position: inside;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+@media screen and (max-width: 768px){
+	.padding-p{
+		padding-bottom: 30px;
+	}
+	.texto-bg{
+		padding: 130px 0;
+	}
+}
